@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 300px 700px;
+    height: 1000px; 
+}
+/* .left-section{
+   border: 1px solid black;
+} */
+
+.left-content {
+    padding: 1rem;
+}
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.02px;
+    text-align: center;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.contact-item {
+    text-align: center;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    padding: 1rem;
+    
+}
+.contact-number {
+    text-align: center;
+}
+.location {
+    text-align: center;
+}
+.skills {
+    font-size:  0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem  0.5rem;
+}
+.skill-name {
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.progress-bar {
+    border: 1px white solid;
+    height: 4px;
+    width: 70%;
+}
+
+/* .right-section{
+    border: 1px solid black;
+} */
+.right-main-content {
+    padding: 2rem 3rem;
+}
+.right-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+@media screen and (min-width:100px) and (max-width:674px){
+    
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 1000px; 
+        width: 90%;
+    }
+
+}
